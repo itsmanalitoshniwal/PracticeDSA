@@ -1,0 +1,10 @@
+package singly_linked_list;
+
+public class SinglyLLTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

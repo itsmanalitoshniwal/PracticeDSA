@@ -1,0 +1,15 @@
+package singly_linked_list;
+
+public class SinglyLLTester {
+
+	public static void main(String[] args) {
+		SinglyLL s= new SinglyLL();
+		s.addLast(30);
+		s.addLast(33);
+//		s.addFirst(30);
+//		s.addFirst(50);
+//		s.addFirst(40);
+		s.display();
+	}
+
+}

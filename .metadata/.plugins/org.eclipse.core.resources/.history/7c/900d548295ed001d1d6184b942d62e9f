@@ -1,0 +1,26 @@
+package singly_linked_list;
+
+public class SinglyLLTester {
+
+	public static void main(String[] args) {
+		SinglyLL s= new SinglyLL();
+		s.addFirst(30);
+		s.addAtPos(1, 1);
+		s.addAtPos(3, 2);
+		s.addLast(4);
+		s.addAtPos(33, 3);
+		s.addAtPos(7, 10);
+		s.display();
+		s.delFirst();
+		s.display();
+		s.deleteLast();
+		s.display();
+		s.delAtPos(3);
+		s.display();
+		s.addFirst(67);
+		s.addLast(78);
+		s.display();
+		s.delAtPos(2);
+	}
+
+}
